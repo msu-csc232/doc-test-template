@@ -1,13 +1,11 @@
-/**
- *
- */
-
-#define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+//
+// Created by jdaehn on 11/7/2022.
+//
 
 #include "doctest.h"
 #include "csc232.h"
 
-TEST_CASE("testing task 1")
+TEST_CASE("testing task 2")
 {
     CHECK(factorial(0) == 1);
     CHECK(factorial(1) == 1);
