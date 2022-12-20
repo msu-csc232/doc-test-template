@@ -11,7 +11,6 @@ TEST_SUITE("Bootstrap")
 {
     TEST_CASE("Instructions Only - No points earned for this test case!")
     {
-        REQUIRE_EQ(1, 1);
         std::cout << "Toggle the SKIP_TESTING_TASK_n to enable test suites "
                   << "for each respective task." << std::endl;
     }
