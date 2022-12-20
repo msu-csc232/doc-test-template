@@ -34,10 +34,10 @@ TEST_SUITE("Task 1"
         CHECK_EQ(factorial(10), 3628800);
     }
 
-    TEST_CASE("Testing a failure")
+    TEST_CASE("Testing negative assertions")
     {
-        CHECK_EQ(factorial(2), 3);
-        CHECK_EQ(factorial(3), 7);
-        CHECK_EQ(factorial(10), 13628800);
+        CHECK_NE(factorial(2), 3);
+        CHECK_NE(factorial(3), 7);
+        CHECK_NE(factorial(10), 13628800);
     }
 }
