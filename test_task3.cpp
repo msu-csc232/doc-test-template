@@ -5,19 +5,39 @@
 #include "doctest.h"
 #include "csc232.h"
 
-TEST_SUITE("Task 3"
-           * doctest::description("A suite of tests for Task 3")
-           * doctest::skip(SKIP_TESTING_TASK_3))
+TEST_SUITE("Task 3" * doctest::description("A suite of tests for Task 3"))
 {
-    TEST_CASE("testing some aspect of Task 3")
+    TEST_CASE("Task is ready for evaluation")
     {
-        CHECK_EQ(factorial(1), 1);
-    }
+        const char *search_string = "TEST_TASK_3 TRUE";
+        const char *filename = "csc232.h";
+        std::ifstream input_stream{filename, std::ios::in};
+        if (!input_stream) {
+            FAIL_CHECK("Test source file could not be opened!");
+            exit(EXIT_FAILURE);
+        }
 
-    TEST_CASE("testing another aspect of Task 3")
-    {
-        CHECK_EQ(factorial(2), 2);
-        CHECK_EQ(factorial(3), 6);
-        CHECK_EQ(factorial(10), 3628800);
+        // Read the entire file into memory
+        std::string file_contents;
+        std::string current_line;
+        while (getline(input_stream, current_line))
+            file_contents += current_line + '\n';
+        input_stream.close();
+
+        size_t pos = file_contents.find(search_string);
+        REQUIRE_MESSAGE((static_cast<int>(pos) > 0),
+                        "It appears you have not toggled TEST_TASK_3 from FALSE to TRUE. Please do this before attempt to validate this task.");
+
+        SUBCASE("testing some aspect of Task 3")
+        {
+            CHECK_EQ(factorial(1), 1);
+        }
+
+        SUBCASE("testing another aspect of Task 3")
+        {
+            CHECK_EQ(factorial(2), 2);
+            CHECK_EQ(factorial(3), 6);
+            CHECK_EQ(factorial(10), 3628800);
+        }
     }
 }
