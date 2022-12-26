@@ -15,11 +15,11 @@
 #define FALSE 0
 #define TRUE !FALSE
 // Set this macro to the value of TRUE to test Task 1
-#define TEST_TASK_1 TRUE
+#define TEST_TASK_1 FALSE
 // Set this macro to the value of TRUE to test Task 2
-#define TEST_TASK_2 TRUE
+#define TEST_TASK_2 FALSE
 // Set this macro to the value of TRUE to test Task 3
-#define TEST_TASK_3 TRUE
+#define TEST_TASK_3 FALSE
 
 #include <algorithm>
 #include <cassert>
