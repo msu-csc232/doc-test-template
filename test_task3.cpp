@@ -1,6 +1,13 @@
-//
-// Created by jdaehn on 11/7/2022.
-//
+/**
+ * CSC232 - Data Structures
+ * Missouri State University
+ *
+ * @file    test_task3.cpp
+ * @author  Jim Daehn <jdaehn@missouristate.edu>
+ * @brief   Test suite to validate task 3 of this assignment.
+ * @version v2022.12.26
+ * @date    Spring 2023
+ */
 
 #include "doctest.h"
 #include "csc232.h"

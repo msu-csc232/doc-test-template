@@ -2,9 +2,9 @@
  * CSC232 - Data Structures
  * Missouri State University
  *
- * @file    main.cpp
+ * @file    test_task1.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
- * @brief   Entry-point of the main target.
+ * @brief   Test suite to validate task 1 of this assignment.
  * @version v2022.12.26
  * @date    Spring 2023
  */

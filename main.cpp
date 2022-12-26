@@ -5,7 +5,7 @@
  * @file    main.cpp
  * @author  Jim Daehn <jdaehn@missouristate.edu>
  * @brief   Entry-point of the main target.
- * @version v1.0.0
+ * @version v2022.12.26
  * @date    Spring 2023
  */
 
