@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Source sets for targets
 set(SRC_MAIN_TARGET_FILES main.cpp csc232.cpp)
 set(SRC_DEMO_TARGET_FILES csc232.cpp demo.cpp)
-set(SRC_TEST_TARGET_FILES csc232.cpp test_task1.cpp test_task2.cpp test_task3.cpp)
+set(SRC_TEST_TARGET_FILES csc232.cpp test_bootstrap.cpp test_task1.cpp test_task2.cpp test_task3.cpp)
 
 # Build executable targets
 add_executable(main ${SRC_MAIN_TARGET_FILES})
