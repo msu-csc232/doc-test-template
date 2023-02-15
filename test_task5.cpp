@@ -14,12 +14,12 @@
 #include "doctest.h"
 #include "csc232.h"
 
-TEST_SUITE("Task 3"
-           * doctest::description("A suite of tests for Task 3")
-           * doctest::skip(SKIP_TESTING_TASK_3))
+TEST_SUITE("Task 5"
+           * doctest::description("A suite of tests for Task 5")
+           * doctest::skip(SKIP_TESTING_TASK_5))
 {
-//#if !SKIP_TESTING_TASK_3
-    SCENARIO("Some Task 3 Scenario")
+//#if !SKIP_TESTING_TASK_5
+    SCENARIO("Some Task 5 Scenario")
     {
         GIVEN("Some pre-conditions") {
             WHEN("some stimulus occurs") {

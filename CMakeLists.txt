@@ -5,7 +5,14 @@ if (CMAKE_VERSION GREATER_EQUAL "3.24.0")
     cmake_policy(SET CMP0135 NEW)
 endif()
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
+set(IS_LAB TRUE)
+
+if( IS_LAB )
+    message("Configuring lab assignment...")
+else()
+    message("Configuring homework assignment...")
+endif()
 
 # Source sets for targets
 set(SRC_MAIN_TARGET_FILES main.cpp csc232.cpp)
