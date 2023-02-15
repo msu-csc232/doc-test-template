@@ -12,13 +12,13 @@ Cur historia studere?
 
 ### Advanced Reading
 
-General > Files > Class Materials > Setting Up WSL for CSC232.pdf
+- General > Files > Class Materials > Setting Up WSL for CSC232.pdf
 
 ## Objectives
 
-* Vae, xiphias!
-* Est bi-color planeta, cesaris.
-* Vae.
+- Vae, xiphias!
+- Est bi-color planeta, cesaris.
+- Vae.
 
 ## Tasks
 
