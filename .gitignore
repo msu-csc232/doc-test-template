@@ -36,4 +36,5 @@ cmake-build-debug
 .idea
 
 # Visual Studio Code
-build
+build/
+.vscode/
