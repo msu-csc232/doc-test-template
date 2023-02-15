@@ -9,8 +9,8 @@
  * @date    Spring 2023
  */
 
-#ifndef CSC232
-#define CSC232
+#ifndef MSU_CSC232_SP23_H
+#define MSU_CSC232_SP23_H
 
 #define FALSE 0
 #define TRUE !FALSE
@@ -48,20 +48,11 @@
 #include <utility>
 #include <vector>
 
-/**
- * @brief Calculates the nth factorial number.
- * 
- * @param number the value whose factorial we seek
- * @return the factorial of the given number.
- */
-int factorial(int number);
+// Provide shortened names for common objects found in std namespace
+using std::cerr;
+using std::cin;
+using std::cout;
+using std::endl;
+using std::vector;
 
-/**
- * @brief A demonstration for how an input file is read.
- *
- * @param file_name the file to opened for processing
- * @return true if the given file was successfully opened, false otherwise.
- */
-bool read_data(const std::string& file_name);
-
-#endif
+#endif // MSU_CSC232_SP23_H

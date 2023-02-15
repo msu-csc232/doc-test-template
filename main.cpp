@@ -9,7 +9,10 @@
  * @date    Spring 2023
  */
 
+#include "csc232.h"
+
 int main( )
 {
-    return 0;
+    cout << "Hello, main target!" << endl;
+    return EXIT_SUCCESS;
 }
