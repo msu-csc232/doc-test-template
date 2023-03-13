@@ -80,6 +80,6 @@ This assignment is worth **3 points**.
 
 ### Late Penalty
 
-* In the first 24-hour period following the due date, this lab will be penalized 0.6 point meaning the grading starts at 2.4 (out of 3 total possible) points.
-* In the second 24-hour period following the due date, this lab will be penalized 1.2 points meaning the grading starts at 1.8 (out of 3 total possible) points.
-* After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 3 possible points.
+- In the first 24-hour period following the due date, this lab will be penalized 0.6 point meaning the grading starts at 2.4 (out of 3 total possible) points.
+- In the second 24-hour period following the due date, this lab will be penalized 1.2 points meaning the grading starts at 1.8 (out of 3 total possible) points.
+- After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 3 possible points.
