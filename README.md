@@ -64,7 +64,7 @@ If you've already set up remote tracking (using the `-u origin develop` switch),
 git push
 ```
 
-As usual, prior to submitting your assignment on Blackboard, be sure that you have committed and pushed your final changes to GitHub. Once your final changes have been pushed, create a pull request that seeks to merge the changes in your `develop` branch into your `trunk` branch. Once your pull request has been created, submit the URL of your assignment _repository_ (i.e., _not_ the URL of the pull request) on the Teams Assignment. Please note: the timestamp of the submission on Teams is used to assess any late penalties if and when warranted, _not_ the date/time you create your pull request. **No exceptions will be granted for this oversight**.
+As usual, prior to submitting your assignment on Microsoft Teams, be sure that you have committed and pushed your final changes to GitHub. Once your final changes have been pushed, create a pull request that seeks to merge the changes in your `develop` branch into your `trunk` branch. Once your pull request has been created, submit the URL of your assignment _repository_ (i.e., _not_ the URL of the pull request) on the Teams Assignment. Please note: the timestamp of the submission on Teams is used to assess any late penalties if and when warranted, _not_ the date/time you create your pull request. **No exceptions will be granted for this oversight**.
 
 ### Grading Rubric
 
@@ -83,3 +83,9 @@ This assignment is worth **3 points**.
 - In the first 24-hour period following the due date, this lab will be penalized 0.6 point meaning the grading starts at 2.4 (out of 3 total possible) points.
 - In the second 24-hour period following the due date, this lab will be penalized 1.2 points meaning the grading starts at 1.8 (out of 3 total possible) points.
 - After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 3 possible points.
+
+### Second Submissions
+
+Assuming you have submitted your first solution on time, you will be allowed to resubmit an updated solution that is based upon the feedback received from your first submission. You will have ten (10) days after your grade is returned to you to resubmit. After the ten (10) days, the grade will remain frozen, regardless if you make another attempt.
+
+Again, this policy applies only to the student that has submitted a concerted effort as their first submission by the assignment due date.
