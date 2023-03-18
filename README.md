@@ -31,7 +31,7 @@ Cur historia studere?
 1. Varius, azureus amicitias patienter reperire de dexter, germanus silva.
 2. Neuter compater unus tractares messor est.
 3. When you have completed this task, toggle the `SKIP_TESTING_TASK_1` macro from `TRUE` to `FALSE`.
-4. Build and execute the `test` target to test your solution.
+4. Build and execute the `test_task1` target to test your solution. Alternatively, you can run `ctest`.
 5. When all the tests for this task pass, commit and push your changes to GitHub.
 
 ### Task 2
@@ -39,7 +39,7 @@ Cur historia studere?
 1. Lumen, solem, et elogium.
 2. Eheu, alter fraticinida!
 3. When you have completed this task, toggle the `SKIP_TESTING_TASK_2` macro from `TRUE` to `FALSE`.
-4. Build and execute the `test` target to test your solution.
+4. Build and execute the `test_task2` target to test your solution. Alternatively, you can run `ctest`.
 5. When all the tests for this task pass, commit and push your changes to GitHub.
 
 ### Task 3
@@ -47,7 +47,7 @@ Cur historia studere?
 1. Hercle, vita fatalis!.
 2. Hercle, saga domesticus!, bassus elevatus!
 3. When you have completed this task, toggle the `SKIP_TESTING_TASK_3` macro from `TRUE` to `FALSE`.
-4. Build and execute the `test` target to test your solution.
+4. Build and execute the `test_task3` target to test your solution. Alternatively, you can run `ctest`.
 5. When all the tests for this task pass, commit and push your changes to GitHub.
 
 ## Submission Details
